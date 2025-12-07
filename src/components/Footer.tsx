@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/magda-portfolio' : '';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">

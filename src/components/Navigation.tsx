@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/magda-portfolio' : '';
+
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +14,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
-              <Image src="/profile-logo-wordmark.svg" alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
+              <Image src={`${basePath}/profile-logo-wordmark.svg`} alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
             </a>
           </div>
 

@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const basePath = process.env.NODE_ENV === 'production' ? '/magda-portfolio' : '';
+
 export default function About() {
   return (
     <section id="about" className="py-20 px-4 bg-white">
