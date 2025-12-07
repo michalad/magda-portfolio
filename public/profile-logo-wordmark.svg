@@ -1,0 +1,22 @@
+<svg width="240" height="60" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Magdalena montuje wordmark">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A4753A"/>
+      <stop offset="100%" stop-color="#7A4316"/>
+    </linearGradient>
+  </defs>
+  <!-- Icon left -->
+  <g transform="translate(8,10)">
+    <rect x="0" y="8" width="32" height="22" rx="6" fill="#2B1A0E"/>
+    <circle cx="16" cy="19" r="8" fill="#D9B788"/>
+    <circle cx="16" cy="19" r="5" fill="#7A4316"/>
+    <circle cx="13" cy="16" r="2" fill="#fff" opacity="0.5"/>
+    <rect x="0" y="0" width="12" height="8" rx="2" fill="#2B1A0E"/>
+    <circle cx="32" cy="12" r="3" fill="#D97706"/>
+    <circle cx="36" cy="19" r="6" fill="#C27A2C"/>
+    <polygon points="34,16 34,22 40,19" fill="#fff"/>
+  </g>
+  <!-- Wordmark text -->
+  <text x="58" y="26" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="800" fill="#2B1A0E">Magdalena</text>
+  <text x="58" y="46" font-family="'Inter', Arial, sans-serif" font-size="20" font-weight="600" fill="#C27A2C">montuje</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo Magdalena montuje">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A4753A"/>
+      <stop offset="100%" stop-color="#7A4316"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="20" y="20" width="360" height="360" rx="64" fill="url(#bg)"/>
+  
+  <!-- Camera icon -->
+  <g>
+    <rect x="120" y="140" width="160" height="120" rx="20" fill="#2B1A0E"/>
+    <circle cx="200" cy="200" r="40" fill="#D9B788"/>
+    <circle cx="200" cy="200" r="28" fill="#7A4316"/>
+    <circle cx="192" cy="192" r="8" fill="#fff" opacity="0.5"/>
+    <rect x="120" y="120" width="40" height="20" rx="8" fill="#2B1A0E"/>
+    <circle cx="260" cy="164" r="8" fill="#D97706"/>
+  </g>
+  
+  <!-- Play button -->
+  <g transform="translate(320,100)">
+    <circle cx="0" cy="0" r="22" fill="#C27A2C"/>
+    <polygon points="-6,-10 -6,10 12,0" fill="#fff"/>
+  </g>
+</svg>
