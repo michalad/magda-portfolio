@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,7 +12,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
-              <img src="/profile-logo-wordmark.svg" alt="Magdalena montuje" className="h-10" />
+              <Image src="/profile-logo-wordmark.svg" alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
             </a>
           </div>
 

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
@@ -5,7 +7,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="mb-4 inline-block bg-white/10 px-3 py-2 rounded-lg backdrop-blur-sm">
-              <img src="/profile-logo-wordmark.svg" alt="Magdalena montuje" className="h-10" />
+              <Image src="/profile-logo-wordmark.svg" alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
             </div>
             <p className="text-gray-400">
               Profesjonalny montaż filmów z wakacji. Twoje wspomnienia w

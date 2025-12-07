@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="py-20 px-4 bg-white">
@@ -33,9 +35,11 @@ export default function About() {
             </div>
           </div>
           <div className="relative h-96 flex items-center justify-center">
-            <img 
+            <Image 
               src="/profile-logo.svg" 
               alt="Magdalena montuje - logo" 
+              width={320}
+              height={320}
               className="w-80 h-80 rounded-lg shadow-2xl"
             />
           </div>
