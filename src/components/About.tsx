@@ -38,7 +38,7 @@ export default function About() {
           </div>
           <div className="relative h-96 flex items-center justify-center">
             <Image 
-              src="/profile-logo.svg" 
+              src={`${basePath}/profile-logo.svg`} 
               alt="Magdalena montuje - logo" 
               width={320}
               height={320}
