@@ -2,6 +2,8 @@
 
 import { Camera, Sun, Mic, Smartphone, Video, CheckCircle } from 'lucide-react';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/magda-portfolio' : '';
+
 export default function GuideForClients() {
   const tips = [
     {
@@ -166,7 +168,7 @@ export default function GuideForClients() {
             Masz pytania o nagrywanie materiałów? Skontaktuj się ze mną!
           </p>
           <a 
-            href="/#contact"
+            href={`${basePath}/#contact`}
             className="inline-block bg-gradient-to-r from-amber-700 to-orange-600 text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-shadow duration-300"
           >
             Skontaktuj się

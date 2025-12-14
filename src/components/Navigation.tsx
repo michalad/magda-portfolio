@@ -13,7 +13,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <a href="/" className="flex items-center">
+            <a href={`${basePath}/`} className="flex items-center">
               <Image src={`${basePath}/profile-logo-wordmark.svg`} alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
             </a>
           </div>
@@ -22,31 +22,31 @@ export default function Navigation() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
               <a
-                href="/"
+                href={`${basePath}/`}
                 className="text-gray-700 hover:text-amber-800 transition-colors"
               >
                 Start
               </a>
               <a
-                href="/#about"
+                href={`${basePath}/#about`}
                 className="text-gray-700 hover:text-amber-800 transition-colors"
               >
                 O mnie
               </a>
               <a
-                href="/#portfolio"
+                href={`${basePath}/#portfolio`}
                 className="text-gray-700 hover:text-amber-800 transition-colors"
               >
                 Portfolio
               </a>
               <a
-                href="/poradniki"
+                href={`${basePath}/poradniki`}
                 className="text-gray-700 hover:text-amber-800 transition-colors"
               >
                 Poradnik
               </a>
               <a
-                href="/#contact"
+                href={`${basePath}/#contact`}
                 className="bg-amber-800 text-white px-6 py-2 rounded-full hover:bg-amber-900 transition-colors"
               >
                 Kontakt
@@ -85,35 +85,35 @@ export default function Navigation() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white shadow-lg">
             <a
-              href="/"
+              href={`${basePath}/`}
               className="block px-3 py-2 text-gray-700 hover:text-amber-800 hover:bg-amber-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
               Start
             </a>
             <a
-              href="/#about"
+              href={`${basePath}/#about`}
               className="block px-3 py-2 text-gray-700 hover:text-amber-800 hover:bg-amber-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
               O mnie
             </a>
             <a
-              href="/#portfolio"
+              href={`${basePath}/#portfolio`}
               className="block px-3 py-2 text-gray-700 hover:text-amber-800 hover:bg-amber-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
               Portfolio
             </a>
             <a
-              href="/poradniki"
+              href={`${basePath}/poradniki`}
               className="block px-3 py-2 text-gray-700 hover:text-amber-800 hover:bg-amber-50 rounded-md"
               onClick={() => setIsOpen(false)}
             >
               Poradnik
             </a>
             <a
-              href="/#contact"
+              href={`${basePath}/#contact`}
               className="block px-3 py-2 bg-amber-800 text-white hover:bg-amber-900 rounded-md text-center"
               onClick={() => setIsOpen(false)}
             >
