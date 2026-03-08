@@ -18,22 +18,22 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Szybkie linki</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                <a href="/" className="text-gray-400 hover:text-white transition-colors">
                   Start
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-white transition-colors">
+                <a href="/#about" className="text-gray-400 hover:text-white transition-colors">
                   O mnie
                 </a>
               </li>
               <li>
-                <a href="#portfolio" className="text-gray-400 hover:text-white transition-colors">
+                <a href="/#portfolio" className="text-gray-400 hover:text-white transition-colors">
                   Portfolio
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-gray-400 hover:text-white transition-colors">
+                <a href="/#contact" className="text-gray-400 hover:text-white transition-colors">
                   Kontakt
                 </a>
               </li>
