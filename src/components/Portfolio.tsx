@@ -12,47 +12,47 @@ interface Video {
 }
 
 const videos: Video[] = [
-  {
+    {
     id: "1",
-    title: "FUERTEVENTURA || STYCZEŃ 2025",
-    description: "Piękne wspomnienia z wyspy FUERTEVENTURA",
+    title: "FILM: GRAN CANARIA",
+    description: "Wspomnienia z wyspy Gran Canaria",
     platform: "youtube",
-    videoId: "a-FpsAPsvMI", 
+    videoId: "i_seKmJmiGQ",
   },
   {
     id: "2",
-    title: "Podróż po Włoszech",
-    description: "Od Rzymu po Wenecję",
-    platform: "vimeo",
-    videoId: "123456789", // Przykładowe ID - należy zastąpić prawdziwymi
+    title: "FUERTEVENTURA || STYCZEŃ 2025",
+    description: "Piękne wspomnienia z wyspy FUERTEVENTURA",
+    platform: "youtube",
+    videoId: "gaFU_vLGq60", 
   },
   {
     id: "3",
-    title: "Hiszpańska przygoda",
-    description: "Barcelona i Costa Brava",
+    title: "TELEDYSK: GRAN CANARIA",
+    description: "Teledysk z wakacji na Gran Canarii",
     platform: "youtube",
-    videoId: "dQw4w9WgXcQ", // Przykładowe ID - należy zastąpić prawdziwymi
+    videoId: "ODBbHc8Hoz0",
   },
   {
     id: "4",
-    title: "Wakacje w Chorwacji",
-    description: "Adriatyk i jego cuda",
+    title: "POMYSŁ NA POCZĄTEK FILMU - BIEG",
+    description: "Pomysł na początek filmu z wakacji - bieg po plaży",
     platform: "youtube",
-    videoId: "dQw4w9WgXcQ", // Przykładowe ID - należy zastąpić prawdziwymi
+    videoId: "jh81VZrasWU",
   },
   {
     id: "5",
-    title: "Egzotyczna Tajlandia",
-    description: "Plaże i kultura",
-    platform: "vimeo",
-    videoId: "987654321", // Przykładowe ID - należy zastąpić prawdziwymi
+    title: "POMYSŁ NA POCZĄTEK FILMU - SKOK",
+    description: "Pomysł na początek filmu z wakacji - skok",
+    platform: "youtube",
+    videoId: "m9yTdyB7Jk0",
   },
   {
     id: "6",
-    title: "Górskie szlaki Tatry",
-    description: "Polskie góry z lotu ptaka",
+    title: "DRON : FUERTEVENTURA",
+    description: "Ujęcia z drona z wyspy FUERTEVENTURA",
     platform: "youtube",
-    videoId: "dQw4w9WgXcQ", // Przykładowe ID - należy zastąpić prawdziwymi
+    videoId: "H5csve5GtnU",
   },
 ];
 
