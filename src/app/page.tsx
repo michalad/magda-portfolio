@@ -1,7 +1,17 @@
+import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    url: "https://magdamontuje.pl",
+  },
+};
 
 export default function Home() {
   return (
