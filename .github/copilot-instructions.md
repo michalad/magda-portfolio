@@ -1,52 +1,48 @@
-- [x] Verify that the copilot-instructions.md file in the .github directory is created. ✓
+# Copilot Instructions — Magda Montuje Portfolio
 
-- [x] Clarify Project Requirements ✓
-  Next.js project for vacation video editing company portfolio with YouTube/Vimeo embeds.
+## Kontekst projektu
 
-- [x] Scaffold the Project ✓
-  Created Next.js 16 project with TypeScript, Tailwind CSS, and App Router.
+Strona wizytówka polskiej freelancerki montażystki wideo — **Magdalena Adamek**, marka: **Magda Montuje**.
+- URL produkcyjny: `https://magdamontuje.pl`
+- Specjalizacja: montaż filmów wakacyjnych dla klientów indywidualnych
+- **Cały content strony jest po polsku** — nie zmieniaj języka tekstu na angielski
 
-- [x] Customize the Project ✓
-  Created custom components:
-  - Navigation - responsive menu with smooth scrolling
-  - Hero - gradient background with call-to-action
-  - About - skills and description section
-  - Portfolio - video gallery with YouTube/Vimeo modal player
-  - Contact - contact form and social media links
-  - Footer - site footer with links
+## Stack techniczny
 
-- [x] Install Required Extensions ✓
-  No additional extensions required.
+- **Next.js** (App Router) + **TypeScript**
+- **Tailwind CSS** — nie używaj inline styles ani zewnętrznych bibliotek CSS
+- Komponenty są domyślnie **Server Components**; dodawaj `"use client"` tylko gdy niezbędna interaktywność (hooki, event handlery)
+- Dane konfiguracyjne (np. social media) trzymamy w `src/data/`, nie bezpośrednio w komponentach
 
-- [x] Compile the Project ✓
-  Project builds successfully with no errors.
+## SEO — obowiązkowe zasady
 
-- [x] Create and Run Task ✓
-  Dev server running on http://localhost:3000
+Projekt ma rozbudowany setup SEO. Przy każdej zmianie treści lub dodaniu nowej strony:
 
-- [x] Launch the Project ✓
-  Application is running and accessible.
+1. **Każda nowa strona** (`/page.tsx`) musi eksportować `metadata` zawierające:
+   - `title` (zgodnie z template `"%s | Magda Montuje"`)
+   - `description` (unikalna, ~150–160 znaków)
+   - `keywords` (lista fraz kluczowych po polsku)
+   - `alternates.canonical` (ścieżka strony, np. `/poradniki`)
+   - `openGraph` z `type`, `url`, `title`, `description`, `images`
+   - `twitter` z `card`, `title`, `description`, `images`
 
-- [x] Ensure Documentation is Complete ✓
-  README.md updated with comprehensive project documentation.
+2. **Zmiana tytułu sekcji lub kluczowych treści** = zaktualizuj odpowiednie `keywords` i `description` w metadanych
 
-## Project Summary
+3. **Obrazy** zawsze muszą mieć atrybut `alt` — opisowy, po polsku
 
-**Type**: Next.js portfolio website
-**Purpose**: Showcase vacation video editing services
-**Tech Stack**: Next.js 16, TypeScript, Tailwind CSS
-**Status**: Complete and ready for customization
+4. **Linki zewnętrzne** (YouTube, Vimeo, social media) powinny mieć `rel="noopener noreferrer"`
 
-**Key Features**:
-- Responsive design for all devices
-- YouTube and Vimeo video embeds
-- Interactive portfolio gallery
-- Contact form
-- Smooth scrolling navigation
+5. `BASE_URL` jest zdefiniowane w `src/app/layout.tsx` — używaj go przy generowaniu absolutnych URL-i
 
-**Next Steps for User**:
-1. Replace placeholder video IDs with real YouTube/Vimeo IDs in `src/components/Portfolio.tsx`
-2. Update contact information in `src/components/Contact.tsx`
-3. Add profile photo to `public/` directory and update `src/components/About.tsx`
-4. Customize colors and content as needed
-5. Deploy to Vercel or preferred hosting platform
+## Brand i tone of voice
+
+- Ton: ciepły, osobisty — to strona autorska, nie korporacja
+- Imię i nazwisko: Magdalena Adamek; marka skrócona: Magda Montuje
+- Unikaj korporacyjnego języka; teksty powinny brzmieć naturalnie i przyjaźnie
+
+## Struktura projektu
+
+- `src/app/` — strony (App Router), `layout.tsx`, `globals.css`, `sitemap.ts`, `robots.ts`
+- `src/components/` — komponenty UI wielokrotnego użytku
+- `src/data/` — dane konfiguracyjne (np. linki social media)
+- `public/` — zasoby statyczne (obrazy, logo)
