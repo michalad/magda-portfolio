@@ -12,8 +12,7 @@ export default function Contact() {
           Magdalena Adamek
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-lg">
+        <div className="max-w-lg mx-auto bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-lg mb-12">
             <div className="flex items-start space-x-4 mb-6">
               <div className="w-12 h-12 bg-amber-800 rounded-full flex items-center justify-center flex-shrink-0">
                 <svg
@@ -109,63 +108,6 @@ export default function Contact() {
                 </a>
               </div>
             </div>
-          </div>
-
-          <div className="bg-gray-50 p-8 rounded-lg">
-            <h3 className="text-xl font-bold text-gray-900 mb-6">
-              Napisz wiadomość
-            </h3>
-            <form className="space-y-4">
-              <div>
-                <label
-                  htmlFor="name"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  Imię i nazwisko
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-800 focus:border-transparent"
-                  placeholder="Jan Kowalski"
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-800 focus:border-transparent"
-                  placeholder="jan@example.com"
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="message"
-                  className="block text-sm font-medium text-gray-700 mb-2"
-                >
-                  Wiadomość
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-800 focus:border-transparent"
-                  placeholder="Opisz swój projekt..."
-                ></textarea>
-              </div>
-              <button
-                type="submit"
-                className="w-full bg-amber-800 text-white py-3 rounded-lg font-semibold hover:bg-amber-900 transition-colors"
-              >
-                Wyślij wiadomość
-              </button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
