@@ -12,43 +12,50 @@ interface Video {
 }
 
 const videos: Video[] = [
-    {
+  {
     id: "1",
+    title: "TELEDYSK: ALBANIA",
+    description: "Weekend w Albanii",
+    platform: "youtube",
+    videoId: "5h6R0-tedIo",
+  },  
+  {
+    id: "2",
     title: "FILM: GRAN CANARIA",
     description: "Wspomnienia z wyspy Gran Canaria",
     platform: "youtube",
     videoId: "i_seKmJmiGQ",
   },
   {
-    id: "2",
+    id: "3",
     title: "FUERTEVENTURA || STYCZEŃ 2025",
     description: "Piękne wspomnienia z wyspy FUERTEVENTURA",
     platform: "youtube",
     videoId: "gaFU_vLGq60", 
   },
   {
-    id: "3",
+    id: "4",
     title: "TELEDYSK: GRAN CANARIA",
     description: "Teledysk z wakacji na Gran Canarii",
     platform: "youtube",
     videoId: "qfKe25SdfBs",
   },
   {
-    id: "4",
+    id: "5",
     title: "POMYSŁ NA POCZĄTEK FILMU - BIEG",
     description: "Pomysł na początek filmu z wakacji - bieg po plaży",
     platform: "youtube",
     videoId: "jh81VZrasWU",
   },
   {
-    id: "5",
+    id: "6",
     title: "POMYSŁ NA POCZĄTEK FILMU - SKOK",
     description: "Pomysł na początek filmu z wakacji - skok",
     platform: "youtube",
     videoId: "m9yTdyB7Jk0",
   },
   {
-    id: "6",
+    id: "7",
     title: "DRON : FUERTEVENTURA",
     description: "Ujęcia z drona z wyspy FUERTEVENTURA",
     platform: "youtube",
