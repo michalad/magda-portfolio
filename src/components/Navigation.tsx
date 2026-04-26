@@ -12,7 +12,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
-              <Image src="/profile-logo-wordmark.svg" alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
+              <Image src="/logo-nobackground.svg" alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
             </a>
           </div>
 

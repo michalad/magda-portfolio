@@ -7,9 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="mb-4 inline-block bg-white/10 px-3 py-2 rounded-lg backdrop-blur-sm">
-              <Image src="/profile-logo-wordmark.svg" alt="Magdalena montuje" width={160} height={40} className="h-10 w-auto" />
-            </div>
+            <h3 className="text-xl font-bold mb-4">Magda montuje</h3>
             <p className="text-gray-400">
               Profesjonalny montaż filmów z wakacji. Twoje wspomnienia w
               najlepszym wydaniu.

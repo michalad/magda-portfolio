@@ -31,7 +31,7 @@ const videos: Video[] = [
     title: "TELEDYSK: GRAN CANARIA",
     description: "Teledysk z wakacji na Gran Canarii",
     platform: "youtube",
-    videoId: "ODBbHc8Hoz0",
+    videoId: "qfKe25SdfBs",
   },
   {
     id: "4",
