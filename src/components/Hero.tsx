@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40"></div>
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Magdalena montuje
+          Magda Montuje
         </h1>
         <p className="text-xl md:text-2xl mb-4 font-light">
           Montaż filmów z wakacji
